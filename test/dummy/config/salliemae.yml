@@ -1,0 +1,13 @@
+default: &default
+  url: 'https://stg.bosebill.salliemae.com/NetPay/Products/SIU/EPG/Academic+Affairs/1396/Gateway.aspx'
+  product_id: "0000"
+  school_id: "00175800"
+  postback_url: 'http://131.230.19.89:3000/sallie_mae/process_payment'
+  finish_url: 'http://131.230.19.89:3000/sallie_mae/process_payment'
+  cancel_url: 'http://131.230.19.89:3000/sallie_mae/cancel'
+development:
+  <<: *default
+test:
+  <<: *default
+production:
+  <<: *default

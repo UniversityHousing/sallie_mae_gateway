@@ -1,5 +1,10 @@
 default: &default
-  url: '/NetPay/Products/WSU/Graduate Studies/169/Gateway.aspx'
+  url: 'https://stg.bosebill.salliemae.com/NetPay/Products/Gateway.aspx'
+  product_id: "0000"
+  school_id: "123456789"
+  postback_url: 'http://localhost:3000/sallie_mae/process'
+  finish_url: 'http://localhost:3000/sallie_mae/process'
+  cancel_url: 'http://localhost:3000/sallie_mae/cancel'
 development:
   <<: *default
 test:

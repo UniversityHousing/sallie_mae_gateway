@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     SallieMae Gateway (0.0.1)
+      haml
       rails (~> 3.1.0)
 
 GEM
@@ -40,6 +41,7 @@ GEM
     bcrypt-ruby (3.0.0)
     builder (3.0.0)
     erubis (2.7.0)
+    haml (3.1.2)
     hike (1.2.1)
     i18n (0.6.0)
     mail (2.3.0)
@@ -92,4 +94,5 @@ PLATFORMS
 
 DEPENDENCIES
   SallieMae Gateway!
+  haml
   sqlite3

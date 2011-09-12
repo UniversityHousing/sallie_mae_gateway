@@ -7,5 +7,6 @@ class SallieMaeGatewayTest < ActiveSupport::TestCase
   
   test "initial configuration" do
     assert_kind_of Hash, SALLIE_MAE_CONFIG
+    assert SALLIE_MAE_CONFIG.include?("url")
   end
 end
