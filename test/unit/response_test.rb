@@ -37,6 +37,10 @@ class ResponseTest < ActiveSupport::TestCase
     assert_equal false, @canceled_response.success?
   end
   
+  test "#payment_method should return 'Master Card' for successful payment with 'MC'" do
+    assert_equal SallieMaeGateway::Response::PAYMENT_INDICATOR['MC'], @successful_response.payment_method
+  end
+  
   test "#success_message returns 'Credit Card Accepted' for successful payment" do
     assert_equal SallieMaeGateway::Response::SUCCESS_INDICATOR['A'], @successful_response.success_message
   end

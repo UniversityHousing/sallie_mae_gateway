@@ -8,7 +8,19 @@ module SallieMaeGateway
       'C' => 'Canceled'
     }.freeze
     
-    CANCELED, PENDING, SUCCESS = 'C', 'P', 'A'
+    PAYMENT_INDICATOR = {
+      'AX' => 'American Express',
+      'DI' => 'Discover Card',
+      'DN' => 'Diners Club',
+      'CB' => 'Carte Blanche',
+      'JC' => 'JCB',
+      'MC' => 'Master Card',
+      'VI' => 'Visa',
+      'CK' => 'Checking Account',
+      'SV' => 'Savings Account'
+    }.freeze
+    
+    CANCELED, PENDING, SUCCESS, SCHEDULED = 'C', 'P', 'A', 'S'
     
     
     attr_reader :raw_response
@@ -38,6 +50,11 @@ module SallieMaeGateway
     def success_message
       raise 'Unable to determine status. Has a response been provided?' unless self.respond_to? :success_indicator
       SUCCESS_INDICATOR[self.success_indicator]
+    end
+    
+    def payment_method
+      raise 'Unable to determine payment method. Has a response been provided?' unless self.respond_to? :pmt_indicator
+      PAYMENT_INDICATOR[self.pmt_indicator]
     end
     
     private
