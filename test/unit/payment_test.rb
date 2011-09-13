@@ -36,4 +36,8 @@ class PaymentTest < ActiveSupport::TestCase
     assert_instance_of Array, @payment.line_items
     assert_equal 2, @payment.line_items.size
   end
+  
+  test "default values for allow_edit is no ('N')" do
+    pending
+  end
 end

@@ -1,0 +1,1096 @@
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:08:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (41.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:09:58 -0500
+  Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 10ms
+
+NameError (undefined local variable or method `find_model' for #<WelcomeController:0x007faf642b2990>):
+  
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (137.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:10:09 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Compiled application.css  (4ms)  (pid 64757)
+Completed 500 Internal Server Error in 790ms
+
+ActionView::Template::Error (couldn't find file 'jquery'
+  (in /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/test/dummy/app/assets/javascripts/application.js:7)):
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1881633335224596159_70195625499560'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:10:25 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 86ms
+
+ActionView::Template::Error (undefined local variable or method `test_sallie_mae' for #<#<Class:0x007faf640ff080>:0x007faf640eb670>):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1881633335224596159_70195637386520'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (34.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:10:37 -0500
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/application_controller.rb:3:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:12:39 -0500
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/application_controller.rb:3:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:12:40 -0500
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/application_controller.rb:3:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/welcome_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:12:51 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined local variable or method `test_sallie_mae' for #<#<Class:0x007faf62dc2a58>:0x007faf62ce3bc8>):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1881633335224596159_70195637386520'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:14:39 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined local variable or method `test_sallie_mae' for #<#<Class:0x007faf661ef3f8>:0x007faf661ea650>):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1881633335224596159_70195637386520'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:17:50 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (9.9ms)
+Completed 500 Internal Server Error in 105ms
+
+ActionView::Template::Error (undefined local variable or method `test_sallie_mae' for #<#<Class:0x007fba6b524658>:0x007fba6b4f9250>):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3963419106444749251_70219321007840'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:18:01 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined local variable or method `test_sallie_mae' for #<#<Class:0x007fba6bba1300>:0x007fba6bb8d120>):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3963419106444749251_70219321007840'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:31:53 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:32:10 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined method `content' for #<#<Class:0x007fac2f404e20>:0x007fac2f3fe0e8>):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4004572975122771923_70188729458480'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:35:42 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:36:00 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 48ms
+
+ActionView::Template::Error (undefined method `capture_haml' for #<#<Class:0x007fe3136a4840>:0x007fe3136a05d8>):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2389187910538889155_70306630105260'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (30.7ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:36:23 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `capture_position=' for nil:NilClass):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2389187910538889155_70306630105260'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:37:22 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (undefined method `capture_position=' for nil:NilClass):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4216506108806094061_70167872691940'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:38:04 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `options' for nil:NilClass):
+    9: <body>
+    10: 
+    11: <%= yield %>
+    12: <%= test_sallie_mae %>
+    13: </body>
+    14: </html>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4216506108806094061_70167872691940'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:38:54 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:39:09 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (haml_tag outputs directly to the Haml template.
+Disregard its return value and use the - operator,
+or use capture_haml to get the value as a String.
+):
+    5:     = csrf_meta_tags
+    6:   %body
+    7:     = yield
+    8:     = test_sallie_mae
+  app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__1143605474813843367_70167861400560'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:39:21 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:42:38 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (1.8ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:42:48 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (0.5ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:46:01 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (10.7ms)
+Completed 200 OK in 30ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:46:06 -0500
+  Processing by WelcomeController#index as */*
+Rendered welcome/index.html.haml within layouts/application (1.2ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (1.0ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:46:42 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (1.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:46:43 -0500
+  Processing by WelcomeController#index as */*
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (0.9ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:49:21 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 182ms
+
+ActionView::Template::Error (undefined method `test_sallie_mae' for #<#<Class:0x007ff9e70256c8>:0x007ff9e7010d18>):
+    5:     = csrf_meta_tags
+    6:   %body
+    7:     = yield
+    8:     = test_sallie_mae(:test => "Testing")
+  app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml__3116944529448639167_70355649656060'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:49:58 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 114ms
+
+ActionView::Template::Error (undefined method `test_sallie_mae' for #<#<Class:0x007fcaf0ba01b8>:0x007fcaf0b98f30>):
+    5:     = csrf_meta_tags
+    6:   %body
+    7:     = yield
+    8:     = test_sallie_mae(:test => "Testing")
+  app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___780497366339599353_70254755639600'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:50:14 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (3.4ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: = form_tag SALLIE_MAE_CONFIG["url"] do
+    2:   = hidden_field_tag 'school_id', SALLIE_MAE_CONFIG["school_id"]
+    3:   = hidden_field_tag 
+  app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___780497366339599353_70254764839680'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:55:17 -0500
+  Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+LoadError (Expected /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/models/student.rb to define Student):
+  app/controllers/welcome_controller.rb:3:in `index'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:56:25 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (3.2ms)
+Rendered welcome/index.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 61ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 15:56:28 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (1.2ms)
+Rendered welcome/index.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 16:00:41 -0500
+  Processing by WelcomeController#index as HTML
+ERROR: compiling ___sers_dreedy__ropbox__ousing__ails_sallie_mae_gateway_app_views_sallie_mae__form_html_haml___2200658742694573141_70254775542720 RAISED /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:8: syntax error, unexpected '}'
+...idden_field_tag "PMT_TYPE#{i++}", line_item.type
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:9: syntax error, unexpected '}'
+..._field_tag "PMT_TYPE_DESC#{i++}", line_item.description
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:10: syntax error, unexpected '}'
+...en_field_tag "AMOUNT_PAID#{i++}", ("%.02f" % line_item.amoun...
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:10: no .<digit> floating literal anymore; put 0 before dot
+...d_tag "AMOUNT_PAID#{i++}", ("%.02f" % line_item.amount)
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:10: syntax error, unexpected '.'
+...d_tag "AMOUNT_PAID#{i++}", ("%.02f" % line_item.amount)
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:11: syntax error, unexpected ')', expecting '}'
+));}\n", 0, false);end
+                  ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:13: syntax error, unexpected keyword_ensure, expecting '}'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:13: syntax error, unexpected keyword_end, expecting '}'
+...buffer = @haml_buffer.upper;end;
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:16: syntax error, unexpected keyword_end, expecting '}'
+Function body:           def ___sers_dreedy__ropbox__ousing__ails_sallie_mae_gateway_app_views_sallie_mae__form_html_haml___2200658742694573141_70254775542720(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "sallie_mae/_form";_old_output_buffer = @output_buffer;form = local_assigns[:form];payment = local_assigns[:payment];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;haml_temp =  form_tag SALLIE_MAE_CONFIG["url"] do
+_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( hidden_field_tag 'SCHOOL_ID', SALLIE_MAE_CONFIG["school_id"]
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( hidden_field_tag 'ACCOUNT', payment.student.account
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( hidden_field_tag 'STUDENT_FIRSTNAME', payment.student.first_name
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( hidden_field_tag 'STUDENT_LASTNAME', payment.student.last_name
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( hidden_field_tag 'STUDENT_EMAIL_1', payment.student.email
+));}\n", 0, false); payment.line_items.each_with_index do |line_item, i|
+_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( hidden_field_tag "PMT_TYPE#{i++}", line_item.type
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( hidden_field_tag "PMT_TYPE_DESC#{i++}", line_item.description
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( hidden_field_tag "AMOUNT_PAID#{i++}", ("%.02f" % line_item.amount)
+));}\n", 0, false);end
+end
+_hamlout.buffer << _hamlout.format_script_false_false_false_true_false_false_false(haml_temp);_hamlout.push_text("\n", 0, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/partial_renderer.rb:256:in `render_partial'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/partial_renderer.rb:228:in `block (2 levels) in render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/partial_renderer.rb:227:in `block in render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/partial_renderer.rb:219:in `render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/haml-3.1.2/lib/haml/helpers/action_view_mods.rb:11:in `block in render_with_haml'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/haml-3.1.2/lib/haml/helpers.rb:90:in `non_haml'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/haml-3.1.2/lib/haml/helpers/action_view_mods.rb:11:in `render_with_haml'
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/helpers/sallie_mae_helper.rb:3:in `sallie_mae_form'
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/test/dummy/app/views/welcome/index.html.haml:2:in `_app_views_welcome_index_html_haml___2169869876419760458_70254762306580'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/template.rb:144:in `block in render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/dreedy/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__1390780597588781002__process_action__4112527387227995039__callbacks'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `block in action'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-1.3.2/lib/rack/etag.rb:23:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-1.3.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-1.3.2/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-1.3.2/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-1.3.2/lib/rack/sendfile.rb:101:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-1.3.2/lib/rack/methodoverride.rb:24:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-1.3.2/lib/rack/runtime.rb:17:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-1.3.2/lib/rack/lock.rb:15:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/rack-1.3.2/lib/rack/handler/webrick.rb:59:in `service'
+/Users/dreedy/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/dreedy/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/dreedy/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (3.8ms)
+Rendered welcome/index.html.haml within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:8: syntax error, unexpected '}'
+...idden_field_tag "PMT_TYPE#{i++}", line_item.type
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:9: syntax error, unexpected '}'
+..._field_tag "PMT_TYPE_DESC#{i++}", line_item.description
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:10: syntax error, unexpected '}'
+...en_field_tag "AMOUNT_PAID#{i++}", ("%.02f" % line_item.amoun...
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:10: no .<digit> floating literal anymore; put 0 before dot
+...d_tag "AMOUNT_PAID#{i++}", ("%.02f" % line_item.amount)
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:10: syntax error, unexpected '.'
+...d_tag "AMOUNT_PAID#{i++}", ("%.02f" % line_item.amount)
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:11: syntax error, unexpected ')', expecting '}'
+));}\n", 0, false);end
+                  ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:13: syntax error, unexpected keyword_ensure, expecting '}'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:13: syntax error, unexpected keyword_end, expecting '}'
+...buffer = @haml_buffer.upper;end;
+...                               ^
+/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml:16: syntax error, unexpected keyword_end, expecting '}'):
+    5:   = hidden_field_tag 'STUDENT_LASTNAME', payment.student.last_name
+    6:   = hidden_field_tag 'STUDENT_EMAIL_1', payment.student.email
+    7:   - payment.line_items.each_with_index do |line_item, i|
+    8:     = hidden_field_tag "PMT_TYPE#{i++}", line_item.type
+    9:     = hidden_field_tag "PMT_TYPE_DESC#{i++}", line_item.description
+    10:     = hidden_field_tag "AMOUNT_PAID#{i++}", ("%.02f" % line_item.amount)
+  app/views/welcome/index.html.haml:2:in `_app_views_welcome_index_html_haml___2169869876419760458_70254762306580'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 16:01:27 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (4.7ms)
+Rendered welcome/index.html.haml within layouts/application (5.9ms)
+Completed 200 OK in 18ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 16:01:29 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (1.8ms)
+Rendered welcome/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 16:03:04 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_form.html.haml (5.9ms)
+Rendered welcome/index.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 16:07:11 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Missing partial sallie_mae/form with {:handlers=>[:erb, :builder, :haml], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/test/dummy/app/views"
+  * "/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views"
+):
+    1: %h1 Found Me!
+    2: = sallie_mae_form(@payment)
+  app/views/welcome/index.html.haml:2:in `_app_views_welcome_index_html_haml___2169869876419760458_70254762306580'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 16:07:26 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (5.6ms)
+Rendered welcome/index.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-09 16:07:44 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.2ms)
+Rendered welcome/index.html.haml within layouts/application (4.7ms)
+Completed 200 OK in 43ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sallie_mae/process" for 127.0.0.1 at 2011-09-12 08:52:57 -0500
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/sallie_mae_controller.rb:2:in `process'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/sallie_mae/process" for 127.0.0.1 at 2011-09-12 08:53:36 -0500
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/sallie_mae_controller.rb:2:in `process'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.8ms)
+
+
+Started GET "/sallie_mae/process" for 127.0.0.1 at 2011-09-12 08:53:53 -0500
+  Processing by SallieMaeController#process_payment as HTML
+Rendered sallie_mae/process_payment.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sallie_mae/process" for 131.230.19.89 at 2011-09-12 08:55:20 -0500
+  Processing by SallieMaeController#process_payment as HTML
+  Parameters: {"SCHOOL_ID"=>"00175800", "USR_DEF1"=>"", "USR_DEF2"=>"", "STUDENT_UID"=>"", "STUDENT_SUFFIX"=>"", "EDIT_INDICATOR"=>"", "PWP"=>"", "ALT_OTPSSO_URL"=>"http://131.230.19.89:3000/sallie_mae/process", "FINISH_URL"=>"http://131.230.19.89:3000/sallie_mae/process", "CANCEL_URL"=>"http://131.230.19.89:3000/sallie_mae/cancel", "BUSINESS_ABBREVIATION"=>"SIU", "SCHOOL_EMAIL"=>"", "PRODUCT_ID"=>"1396", "TIMESTAMP"=>"20110912095504", "TRANSACTION_ID"=>"11951020110912", "PMT_TYPE"=>"100", "PMT_TYPE_DESC"=>"Block 20 Plan", "AMOUNT_PAID"=>"170.00", "AUTH_CODE"=>"202221212", "SUCCESS_INDICATOR"=>"A", "PMT_INDICATOR"=>"MC", "ACCOUNT"=>"850061633", "STUDENT_LASTNAME"=>"Doe", "STUDENT_FIRSTNAME"=>"John", "STUDENT_MNAME"=>"", "STUDENT_FULLNAME"=>"", "STUDENT_DOB"=>"", "CONSUMER_EMAIL"=>"dreedy@housing.siu.edu", "TRANSACTION_EFFECTIVEDATE"=>"9/12/2011", "CONSUMER_NAME"=>"Daniel J Reedy", "CONSUMER_ADDRESS"=>"707 S Washington St", "CONSUMER_CITY"=>"Carbondale", "CONSUMER_ZIP"=>"62901", "CONSUMER_STATE"=>"ILLINOIS", "utf8"=>"✓", "authenticity_token"=>"VDm5iXfmfU6/iyHh5PpXYRTZrYvV854D+omW9OoG9f8=", "STUDENT_EMAIL_1"=>"dreedy@housing.siu.edu", "PMT_TYPE1"=>"HPRH", "PMT_TYPE_DESC1"=>"Housing Contract Prepayment", "AMOUNT_PAID1"=>"350.00", "commit"=>"Pay Now"}
+WARNING: Can't verify CSRF token authenticity
+Rendered sallie_mae/process_payment.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:02:52 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.3ms)
+Rendered welcome/index.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 51ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:02:57 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.3ms)
+Rendered welcome/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 52ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:06:34 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (5.8ms)
+Rendered welcome/index.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:06:37 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (1.8ms)
+Rendered welcome/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:07:00 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (1.9ms)
+Rendered welcome/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:07:06 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.3ms)
+Rendered welcome/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:07:16 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (1.9ms)
+Rendered welcome/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:07:46 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (5.4ms)
+Rendered welcome/index.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:07:47 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (3.2ms)
+Rendered welcome/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:07:49 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.3ms)
+Rendered welcome/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:08:37 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (5.2ms)
+Rendered welcome/index.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:08:41 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.2ms)
+Rendered welcome/index.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:09:45 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.5ms)
+Rendered welcome/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:10:14 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (6.6ms)
+Rendered welcome/index.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:11:03 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (6.0ms)
+Rendered welcome/index.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 09:11:04 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.7ms)
+Rendered welcome/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 11:14:40 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (6.8ms)
+Rendered welcome/index.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 11:15:03 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.6ms)
+Rendered welcome/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 11:15:07 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.7ms)
+Rendered welcome/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 11:15:24 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (3.4ms)
+Rendered welcome/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 11:15:37 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (2.9ms)
+Rendered welcome/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sallie_mae/process" for 131.230.19.89 at 2011-09-12 11:18:36 -0500
+  Processing by SallieMaeController#process_payment as HTML
+  Parameters: {"SCHOOL_ID"=>"00175800", "USR_DEF1"=>"", "USR_DEF2"=>"", "STUDENT_UID"=>"", "STUDENT_SUFFIX"=>"", "EDIT_INDICATOR"=>"N", "PWP"=>"", "ALT_OTPSSO_URL"=>"http://131.230.19.89:3000/sallie_mae/process", "FINISH_URL"=>"http://131.230.19.89:3000/sallie_mae/process", "CANCEL_URL"=>"http://131.230.19.89:3000/sallie_mae/cancel", "BUSINESS_ABBREVIATION"=>"SIU", "SCHOOL_EMAIL"=>"", "PRODUCT_ID"=>"1396", "TIMESTAMP"=>"20110912121818", "TRANSACTION_ID"=>"11951220110912", "PMT_TYPE"=>"HPRH", "PMT_TYPE_DESC"=>"Housing Contract Prepayment", "AMOUNT_PAID"=>"350.00", "AUTH_CODE"=>"202233877", "SUCCESS_INDICATOR"=>"A", "PMT_TYPE2"=>"HDDP", "PMT_TYPE_DESC2"=>"Debit Dawg", "AMOUNT_PAID2"=>"50.00", "AUTH_CODE2"=>"202233877", "SUCCESS_INDICATOR2"=>"A", "PMT_INDICATOR"=>"MC", "ACCOUNT"=>"850061633", "STUDENT_LASTNAME"=>"Doe", "STUDENT_FIRSTNAME"=>"John", "STUDENT_MNAME"=>"", "STUDENT_FULLNAME"=>"", "STUDENT_DOB"=>"", "CONSUMER_EMAIL"=>"dreedy@housing.siu.edu", "TRANSACTION_EFFECTIVEDATE"=>"9/12/2011", "CONSUMER_NAME"=>"Daniel J Reedy", "CONSUMER_ADDRESS"=>"707 S Washington St", "CONSUMER_CITY"=>"Carbondale", "CONSUMER_ZIP"=>"62901", "CONSUMER_STATE"=>"ILLINOIS", "utf8"=>"✓", "authenticity_token"=>"j+Mu8Jxfw78BFXMEGr6WOEaXJkno+rFKg4SJob0Hdq8=", "STUDENT_EMAIL_1"=>"dreedy@housing.siu.edu", "commit"=>"Pay Now"}
+Rendered sallie_mae/process_payment.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 53ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:34:12 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_hidden_form_with_button.html.haml (3.4ms)
+Rendered welcome/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:38:32 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (43.1ms)
+Rendered welcome/index.html.haml within layouts/application (45.9ms)
+Completed 200 OK in 53ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:39:36 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (7.0ms)
+Rendered welcome/index.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:39:51 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (8.8ms)
+Rendered welcome/index.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:40:09 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (7.2ms)
+Rendered welcome/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:40:24 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (7.2ms)
+Rendered welcome/index.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:41:17 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.7ms)
+Rendered welcome/index.html.haml within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Missing partial sallie_mae/hidden_form_with_button with {:handlers=>[:erb, :builder, :haml], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/test/dummy/app/views"
+  * "/Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views"
+):
+    3: = sallie_mae_form(@payment)
+    4: 
+    5: %h2 Button Only
+    6: = sallie_mae_button(@payment)
+  app/views/welcome/index.html.haml:6:in `_app_views_welcome_index_html_haml___2169869876419760458_70254783160280'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:41:57 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.1ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.6ms)
+Rendered welcome/index.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 23ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:42:31 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (12.3ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (39.3ms)
+Rendered welcome/index.html.haml within layouts/application (56.4ms)
+Completed 200 OK in 65ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:43:01 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.2ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.7ms)
+Rendered welcome/index.html.haml within layouts/application (9.3ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:43:36 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.2ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.7ms)
+Rendered welcome/index.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:43:56 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.4ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.9ms)
+Rendered welcome/index.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:44:33 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (45.1ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.7ms)
+Rendered welcome/index.html.haml within layouts/application (50.4ms)
+Completed 200 OK in 58ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 13:54:49 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (8.6ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.1ms)
+Rendered welcome/index.html.haml within layouts/application (14.2ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 14:09:12 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (8.9ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.2ms)
+Rendered welcome/index.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 14:10:39 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (52.7ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.0ms)
+Rendered welcome/index.html.haml within layouts/application (58.3ms)
+Completed 200 OK in 68ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 14:18:07 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (10.7ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.0ms)
+Rendered welcome/index.html.haml within layouts/application (16.2ms)
+Completed 200 OK in 27ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 14:18:14 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.8ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (4.0ms)
+Rendered welcome/index.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 14:19:23 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (10.9ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.7ms)
+Rendered welcome/index.html.haml within layouts/application (17.4ms)
+Completed 200 OK in 62ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 14:38:24 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.6ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.0ms)
+Rendered welcome/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 31ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 14:38:33 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.6ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.7ms)
+Rendered welcome/index.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 14:45:32 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (11.2ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.4ms)
+Rendered welcome/index.html.haml within layouts/application (16.3ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 14:45:50 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (11.3ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.5ms)
+Rendered welcome/index.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 15:07:27 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (10.2ms)
+Rendered welcome/index.html.haml within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `payment_type' for #<SallieMaeGateway::Payment:0x007fcaeeb9ff08>):
+    3:   = hidden_field_tag 'ALT_OTPSSO_URL', SALLIE_MAE_CONFIG["postback_url"]
+    4:   = hidden_field_tag 'FINISH_URL', SALLIE_MAE_CONFIG["finish_url"]
+    5:   = hidden_field_tag 'CANCEL_URL', SALLIE_MAE_CONFIG["cancel_url"]
+    6:   = hidden_field_tag 'PMT_INDICATOR', payment.payment_type
+    7:   = hidden_field_tag 'EDIT_INDICATOR', payment.allow_edit ? "Y" : "N"
+    8:   - if options[:account].eql? false
+    9:     = hidden_field_tag 'ACCOUNT', payment.student.account
+  app/views/welcome/index.html.haml:3:in `_app_views_welcome_index_html_haml___2169869876419760458_70254783160280'
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 131.230.19.89 at 2011-09-12 15:07:44 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (5.5ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.7ms)
+Rendered welcome/index.html.haml within layouts/application (12.6ms)
+Completed 200 OK in 22ms (Views: 18.6ms | ActiveRecord: 0.0ms)

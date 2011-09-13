@@ -14,3 +14,8 @@ gemspec
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'haml'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'steak'
+end
