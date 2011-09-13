@@ -1,4 +1,4 @@
-= form_tag SALLIE_MAE_CONFIG["url"] do
+= form_tag SALLIE_MAE_CONFIG["url"], :id => 'sallie_mae_gateway_form' do
   = hidden_field_tag 'SCHOOL_ID', SALLIE_MAE_CONFIG["school_id"]
   = hidden_field_tag 'ALT_OTPSSO_URL', SALLIE_MAE_CONFIG["postback_url"]
   = hidden_field_tag 'FINISH_URL', SALLIE_MAE_CONFIG["finish_url"]
@@ -30,7 +30,7 @@
       = label_tag 'STUDENT_EMAIL', 'Student Email', :class => 'label'
       = text_field_tag 'STUDENT_EMAIL_1', payment.student.email, :class => 'text_field', :readonly => 'readonly'
   - unless options[:line_items].eql? false
-    %table.table
+    %table#sallie_mae_line_items.table
       %tr
         %th Description
         %th Amount

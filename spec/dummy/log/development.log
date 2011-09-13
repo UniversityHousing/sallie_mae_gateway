@@ -1102,3 +1102,70 @@ Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie
 Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.6ms)
 Rendered welcome/index.html.haml within layouts/application (75.5ms)
 Completed 200 OK in 157ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-13 10:19:22 -0500
+  Processing by WelcomeController#index as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (35.1ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.6ms)
+Rendered welcome/index.html.haml within layouts/application (41.9ms)
+Completed 200 OK in 56ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-13 10:26:20 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.9ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.1ms)
+Rendered welcome/index.html.haml within layouts/application (9.4ms)
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-13 15:05:42 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (20.6ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.0ms)
+Rendered welcome/index.html.haml within layouts/application (37.1ms)
+Completed 200 OK in 113ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment_button" for 127.0.0.1 at 2011-09-13 15:05:46 -0500
+
+ActionController::RoutingError (No route matches [GET] "/payment_button"):
+  
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/payment" for 127.0.0.1 at 2011-09-13 15:06:07 -0500
+  Processing by WelcomeController#payment_button as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.1ms)
+Rendered welcome/payment_button.html.haml within layouts/application (6.3ms)
+Completed 200 OK in 16ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment" for 127.0.0.1 at 2011-09-13 15:06:13 -0500
+  Processing by WelcomeController#payment_button as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.2ms)
+Rendered welcome/payment_button.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 21ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment_form" for 127.0.0.1 at 2011-09-13 15:22:04 -0500
+  Processing by WelcomeController#payment_form as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.7ms)
+Rendered welcome/payment_form.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment_form" for 127.0.0.1 at 2011-09-13 15:22:07 -0500
+  Processing by WelcomeController#payment_form as */*
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.8ms)
+Rendered welcome/payment_form.html.haml within layouts/application (6.3ms)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment_form" for 127.0.0.1 at 2011-09-13 15:42:18 -0500
+  Processing by WelcomeController#payment_form as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (11.0ms)
+Rendered welcome/payment_form.html.haml within layouts/application (12.1ms)
+Completed 200 OK in 21ms (Views: 17.2ms | ActiveRecord: 0.0ms)
