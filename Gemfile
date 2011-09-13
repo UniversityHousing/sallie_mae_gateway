@@ -15,7 +15,6 @@ gemspec
 
 gem 'haml'
 
-group :development, :test do
-  gem 'rspec-rails'
-  gem 'steak'
+group :test, :development do
+  gem 'steak', '~> 2.0.0'
 end

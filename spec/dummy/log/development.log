@@ -1094,3 +1094,11 @@ Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie
 Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.7ms)
 Rendered welcome/index.html.haml within layouts/application (12.6ms)
 Completed 200 OK in 22ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-13 09:51:38 -0500
+  Processing by WelcomeController#index as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (43.9ms)
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.6ms)
+Rendered welcome/index.html.haml within layouts/application (75.5ms)
+Completed 200 OK in 157ms (Views: 137.5ms | ActiveRecord: 0.0ms)
