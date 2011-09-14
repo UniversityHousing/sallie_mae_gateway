@@ -26,14 +26,12 @@ load 'rails/tasks/engine.rake'
 
 Bundler::GemHelper.install_tasks
 
-require 'rake/testtask'
+require 'rubygems'
+require 'rspec'
 
-Rake::TestTask.new(:test) do |t|
-  t.libs << 'lib'
-  t.libs << 'test'
-  t.pattern = 'test/**/*_test.rb'
-  t.verbose = false
+Spec::Rake::SpecTask.new(:spec) do |t|
+  t.spec_files = FileList['*_spec.rb']
+  t.options = '-v'
 end
 
-
-task :default => :test
+task :default  => :spec

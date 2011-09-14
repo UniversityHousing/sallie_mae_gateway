@@ -13,13 +13,12 @@ Gem::Specification.new do |s|
   s.summary     = "SallieMae Electronic Payment Gateway SSO Integration"
   s.description = "To accommodate the SSO functionality of SallieMae Business Office Solutions Electronic Payment Gateway within a Rails applicaiton."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.0"
   s.add_runtime_dependency "haml", ">= 0"
-  # s.add_dependency "jquery-rails"
-
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'steak', '~> 2.0.0'
   
 end
