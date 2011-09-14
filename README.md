@@ -37,6 +37,6 @@ This gem makes no assumptions about your payment processing system and does not 
 
 Tests
 ===
-Unit & Helper tests are included in the the _test_ directory
+Unit & Helper tests are included in the the _spec_ directory
 
 This project uses MIT-LICENSE.
