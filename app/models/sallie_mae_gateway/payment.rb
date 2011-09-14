@@ -15,5 +15,9 @@ module SallieMaeGateway
       end
       @line_items ||= []
     end
+    
+    def total_amount
+      @line_items.reduce(0.0) { |sum, item| sum += item.amount }
+    end
   end
 end

@@ -24,5 +24,22 @@ describe SallieMaeGateway::Payment do
     specify { subject.line_items.size.should == 0 }    
   end
   
+  context "#line_items" do
+    context "one line item is provided" do
+      before(:each) do 
+        subject.line_items << line_item_one
+      end
+      specify { subject.line_items.size.should == 1 }
+      its(:total_amount) { should == line_item_one.amount }
+    end
+    context "multiple line items are provided" do
+      before(:each) do
+        subject.line_items << line_item_one
+        subject.line_items << line_item_two
+      end
+      specify { subject.line_items.size.should == 2 }
+      its(:total_amount) { should == (line_item_one.amount + line_item_two.amount) }
+    end
+  end
   
 end

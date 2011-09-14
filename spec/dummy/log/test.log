@@ -562,3 +562,55 @@ Started GET "/payment_form" for 127.0.0.1 at 2011-09-14 11:08:54 -0500
 Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (11.8ms)
 Rendered welcome/payment_form.html.haml within layouts/application (42.9ms)
 Completed 200 OK in 130ms (Views: 129.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment" for 127.0.0.1 at 2011-09-14 11:17:38 -0500
+  Processing by WelcomeController#payment_button as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (61.4ms)
+Rendered welcome/payment_button.html.haml within layouts/application (77.8ms)
+Completed 200 OK in 141ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment_form" for 127.0.0.1 at 2011-09-14 11:17:43 -0500
+  Processing by WelcomeController#payment_form as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.0ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment" for 127.0.0.1 at 2011-09-14 11:20:50 -0500
+  Processing by WelcomeController#payment_button as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (12.0ms)
+Rendered welcome/payment_button.html.haml within layouts/application (28.8ms)
+Completed 200 OK in 140ms (Views: 139.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment_form" for 127.0.0.1 at 2011-09-14 11:20:54 -0500
+  Processing by WelcomeController#payment_form as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.9ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment" for 127.0.0.1 at 2011-09-14 11:21:31 -0500
+  Processing by WelcomeController#payment_button as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (11.8ms)
+Rendered welcome/payment_button.html.haml within layouts/application (30.2ms)
+Completed 200 OK in 134ms (Views: 133.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment_form" for 127.0.0.1 at 2011-09-14 11:21:34 -0500
+  Processing by WelcomeController#payment_form as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (3.2ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment" for 127.0.0.1 at 2011-09-14 11:27:38 -0500
+  Processing by WelcomeController#payment_button as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (11.9ms)
+Rendered welcome/payment_button.html.haml within layouts/application (27.3ms)
+Completed 200 OK in 84ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/payment_form" for 127.0.0.1 at 2011-09-14 11:27:41 -0500
+  Processing by WelcomeController#payment_form as HTML
+Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.9ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
