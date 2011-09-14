@@ -8,7 +8,7 @@ feature 'Display payment form', %q{
 } do
 
   context "a single line item is provided" do
-    scenario 'Payment form is displayed' do
+    scenario 'Payment form is displayed', :js => true do
       visit payment_form_path
     
       within(:css, '#sallie_mae_gateway_form') do
@@ -27,6 +27,9 @@ feature 'Display payment form', %q{
         page.should have_selector(:css, '#sallie_mae_line_items')    
         page.should have_button('Make a Payment')
       end
+      
+      click_button 'Make a Payment'
+      page.current_url.should == SALLIE_MAE_CONFIG['url']
     end
   end
 
