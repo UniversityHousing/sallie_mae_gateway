@@ -1191,3 +1191,27 @@ Started GET "/payment" for 127.0.0.1 at 2011-09-14 10:07:56 -0500
 Rendered /Users/dreedy/Dropbox/Housing/Rails/sallie_mae_gateway/app/views/sallie_mae/_sallie_mae_form.html.haml (2.7ms)
 Rendered welcome/payment_button.html.haml within layouts/application (3.9ms)
 Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sallie_mae/cancel" for 131.230.19.89 at 2011-09-14 11:41:39 -0500
+
+ActionController::RoutingError (No route matches [POST] "/sallie_mae/cancel"):
+  
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started POST "/sallie_mae/cancel" for 131.230.19.89 at 2011-09-14 11:42:27 -0500
+
+ActionController::RoutingError (No route matches [POST] "/sallie_mae/cancel"):
+  
+
+Rendered /Users/dreedy/.rvm/gems/ruby-1.9.2-p290@3.1.0/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started POST "/sallie_mae/cancel" for 131.230.19.89 at 2011-09-14 11:42:52 -0500
+  Processing by SallieMaeController#cancel as HTML
+  Parameters: {"SCHOOL_ID"=>"00175800", "USR_DEF1"=>"", "USR_DEF2"=>"", "STUDENT_UID"=>"", "STUDENT_SUFFIX"=>"", "EDIT_INDICATOR"=>"N", "PWP"=>"", "ALT_OTPSSO_URL"=>"http://131.230.19.89:3000/sallie_mae/process_payment", "FINISH_URL"=>"http://131.230.19.89:3000/sallie_mae/process_payment", "CANCEL_URL"=>"http://131.230.19.89:3000/sallie_mae/cancel", "BUSINESS_ABBREVIATION"=>"SIU", "SCHOOL_EMAIL"=>"", "PRODUCT_ID"=>"1396", "TIMESTAMP"=>"20110914124133", "ACCOUNT"=>"850061633", "STUDENT_FIRSTNAME"=>"John", "STUDENT_LASTNAME"=>"Doe", "CONSUMER_NAME"=>"", "CONSUMER_ADDRESS"=>"", "CONSUMER_CITY"=>"", "CONSUMER_STATE"=>"", "CONSUMER_ZIP"=>"", "PMT_TYPE"=>"HPRH", "SUCCESS_INDICATOR"=>"C", "utf8"=>"✓", "authenticity_token"=>"eyfK3KepV/FSTjWthzrP0n2beOlkS20+JhAANnzRk2c=", "STUDENT_EMAIL_1"=>"dreedy@housing.siu.edu", "PMT_TYPE_DESC"=>"Housing Contract Prepayment", "AMOUNT_PAID"=>"350.00", "commit"=>"Make a Payment"}
+WARNING: Can't verify CSRF token authenticity
+Rendered sallie_mae/process_payment.html.haml within layouts/application (14.9ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)

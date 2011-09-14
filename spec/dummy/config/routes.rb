@@ -49,6 +49,7 @@ Dummy::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   match 'sallie_mae/process' => 'sallie_mae#process_payment'
+  match 'sallie_mae/cancel' => 'sallie_mae#cancel'
   match 'payment' => 'welcome#payment_button', :as => 'payment_button'
   match 'payment_form' => 'welcome#payment_form', :as => 'payment_form'
   root :to => 'welcome#index'

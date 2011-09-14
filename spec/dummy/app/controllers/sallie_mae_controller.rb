@@ -1,5 +1,5 @@
 class SallieMaeController < ApplicationController
-  def process_payment
-    
+  def cancel
+    render :action => 'process_payment'
   end
 end
