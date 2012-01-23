@@ -5,7 +5,7 @@ require "sallie_mae_gateway/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "SallieMae Gateway"
+  s.name        = "sallie_mae_gateway"
   s.version     = SallieMaeGateway::VERSION
   s.authors     = ["Daniel Reedy"]
   s.email       = ["dreedy@housing.siu.edu"]
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.1.0"
+  s.add_dependency "rails", ">= 3.1.0"
   s.add_runtime_dependency "haml", ">= 0"
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'steak', '~> 2.0.0'
