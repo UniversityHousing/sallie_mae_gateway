@@ -1,8 +1,8 @@
 = form_tag SALLIE_MAE_CONFIG["url"], :id => 'sallie_mae_gateway_form' do
-  = hidden_field_tag 'SCHOOL_ID', SALLIE_MAE_CONFIG["school_id"]
-  = hidden_field_tag 'ALT_OTPSSO_URL', SALLIE_MAE_CONFIG["postback_url"]
-  = hidden_field_tag 'FINISH_URL', SALLIE_MAE_CONFIG["finish_url"]
-  = hidden_field_tag 'CANCEL_URL', SALLIE_MAE_CONFIG["cancel_url"]
+  = hidden_field_tag 'SCHOOL_ID', payment.school_id 
+  = hidden_field_tag 'ALT_OTPSSO_URL', payment.postback_url
+  = hidden_field_tag 'FINISH_URL', payment.finish_url
+  = hidden_field_tag 'CANCEL_URL', payment.cancel_url
   = hidden_field_tag 'PMT_INDICATOR', payment.payment_type
   = hidden_field_tag 'EDIT_INDICATOR', payment.allow_edit ? "Y" : "N"
   - if options[:account].eql? false
